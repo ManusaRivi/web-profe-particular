@@ -13,9 +13,22 @@
   -moz-osx-font-smoothing: grayscale;
 
   --secondary-color: #222831;
-  --background-color: #393e46;
   --highlight-color: #0092ca;
   --text-color: #eeeeee;
+  --background-color: #393e46;
+  --background-dark: #23272f;
+  --background-light: #4e535b;
+  --background-accent: #145374;
+  --background-accent-light: #5588a3;
+  --background-accent-bright: #00c6e6;
+  --background-muted: #6c757d;
+  --background-soft: #b0bec5;
+  --background-contrast: #f5f6fa;
+  --background-warm: #f6c90e;
+  --background-warm-light: #ffe082;
+  --background-cool: #3a4750;
+  --background-cool-light: #5c677d;
+  --background-cool-bright: #00adb5;
 }
 
 @font-face {
