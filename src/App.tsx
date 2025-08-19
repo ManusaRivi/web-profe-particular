@@ -14,8 +14,8 @@ function App() {
                 </div>
             </div>
             <div className="card">
-                <p>
-                    Bienvenido a mi página web!
+                <p className="text">
+                    Bienvenido a mi página web! En este espacio vas a encontrar información sobre mí, las materias que doy, y cómo contactarme.
                 </p>
             </div>
             <div className="courses-section">

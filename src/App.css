@@ -40,6 +40,10 @@ h1 {
   padding: 2em;
 }
 
+.text {
+    font-size: 1.2rem;
+}
+
 .courses-section {
     width: 100%;
     display: flex;
