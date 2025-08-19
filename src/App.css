@@ -32,8 +32,8 @@ h1 {
 
 .profile-picture {
     object-fit: contain;
-    width: 300px;
-    border-radius: 50%;
+    width: 12vw;
+    border-radius: 40%;
 }
 
 .card {
