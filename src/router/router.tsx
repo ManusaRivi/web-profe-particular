@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom"
+import { createBrowserRouter, Navigate } from "react-router-dom"
 import PageLayout from "../layouts/pageLayout"
 import App from "../App";
 
@@ -9,6 +9,10 @@ const router = createBrowserRouter([
         children: [
             {
                 path: '/',
+                element: <Navigate to="/home" replace />
+            },
+            {
+                path: '/home',
                 element: <App />
             }
         ]
