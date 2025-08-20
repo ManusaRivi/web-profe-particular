@@ -1,14 +1,11 @@
 import { Outlet } from "react-router-dom";
 import "../index.css";
+import Navbar from "../components/navbar/Navbar";
 
 export default function PageLayout() {
     return (
         <>
-            <div className="navbar">
-                <p style={{ margin: 0}}>
-                    Clases particulares!
-                </p>
-            </div>
+            <Navbar />
             <Outlet />
         </>
     )

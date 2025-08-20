@@ -1,0 +1,8 @@
+.navbar {
+    top: 0;
+    position: sticky;
+    width: 100%;
+    height: var(--navbar-height);
+    z-index: 1000;
+    background-color: var(--background-accent);
+}
