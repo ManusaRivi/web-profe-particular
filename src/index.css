@@ -29,6 +29,8 @@
   --background-cool: #3a4750;
   --background-cool-light: #5c677d;
   --background-cool-bright: #00adb5;
+
+  --navbar-height: 3.75rem;
 }
 
 @font-face {
@@ -50,9 +52,17 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
+}
+
+.navbar {
+    top: 0;
+    position: sticky;
+    width: 100%;
+    height: var(--navbar-height);
+    z-index: 1000;
+    background-color: var(--background-accent);
 }
 
 h1 {
