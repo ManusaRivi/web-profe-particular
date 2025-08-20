@@ -8,33 +8,39 @@ export interface CourseData {
     title: string;
     description: string;
     iconUrl: string;
+    path: string;
 }
 
 const Courses: CourseData[] = [
     {
         title: "Inglés",
         description: "Clases de inglés para todos los niveles.",
-        iconUrl: englishIcon
+        iconUrl: englishIcon,
+        path: "/subjects/english"
     },
     {
         title: "Francés",
         description: "Aprendé francés desde cero o mejorá tu nivel.",
-        iconUrl: frenchIcon
+        iconUrl: frenchIcon,
+        path: "/subjects/french"
     },
     {
         title: "Matemáticas",
         description: "Clases de matemáticas para primaria, secundaria y CBC.",
-        iconUrl: mathIcon
+        iconUrl: mathIcon,
+        path: "/subjects/math"
     },
     {
         title: "Física",
         description: "Clases de física para estudiantes de secundaria y CBC.",
-        iconUrl: physicsIcon
+        iconUrl: physicsIcon,
+        path: "/subjects/physics"
     },
     {
         title: "Programación",
         description: "Aprendé a programar desde cero o mejorá tus habilidades.",
-        iconUrl: codingIcon
+        iconUrl: codingIcon,
+        path: "/subjects/coding"
     }
 ]
 
