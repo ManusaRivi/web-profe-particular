@@ -4,6 +4,7 @@ import Home from "../views/Home";
 import About from "../views/About";
 import Contact from "../views/Contact";
 import Subjects from "../views/Subjects";
+import SubjectsLayout from "../layouts/subjectsLayout";
 
 const router = createBrowserRouter([
     {
@@ -24,7 +25,13 @@ const router = createBrowserRouter([
             },
             {
                 path: "/subjects",
-                element: <Subjects />
+                element: <SubjectsLayout />,
+                children: [
+                    {
+                        path: '/subjects',
+                        element: <Subjects />
+                    }
+                ]
             },
             {
                 path: '/contact',
