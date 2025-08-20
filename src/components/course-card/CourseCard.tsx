@@ -1,4 +1,4 @@
-import type { CourseData } from "../constants/courses";
+import type { CourseData } from "../../constants/courses";
 import styles from './CourseCard.module.css';
 
 export default function CourseCard({
