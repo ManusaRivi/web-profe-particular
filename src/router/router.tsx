@@ -1,6 +1,6 @@
 import { createBrowserRouter, Navigate } from "react-router-dom"
 import PageLayout from "../layouts/pageLayout"
-import App from "../views/App";
+import Home from "../views/Home";
 import About from "../views/About";
 
 const router = createBrowserRouter([
@@ -14,7 +14,7 @@ const router = createBrowserRouter([
             },
             {
                 path: '/home',
-                element: <App />
+                element: <Home />
             },
             {
                 path: '/about',

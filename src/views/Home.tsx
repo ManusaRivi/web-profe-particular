@@ -1,4 +1,4 @@
-import './App.css';
+import './Home.css';
 import profilePicture from '../assets/profile-picture.png';
 import CourseCard from '../components/CourseCard';
 import Courses from '../constants/courses';
