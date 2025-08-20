@@ -11,13 +11,13 @@ export default function Contact() {
             <p className="text">
                 Si tenés alguna duda o consulta, no dudes en contactarme a través de los siguientes medios:
             </p>
-            <div style={{ marginTop: '2rem', fontSize: '1.5rem', color: 'var(--text-dark)', alignItems: 'center', display: 'flex', flexDirection: 'row', justifyContent: 'space-around' }}>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '1rem' }}>
-                    <img src={email} style={{ width: '2rem' }} />
+            <div className="contact-info">
+                <div>
+                    <img src={email} />
                     mriveravillatte@gmail.com
                 </div>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '1rem' }}>
-                    <img src={phone} style={{ width: '1.7rem' }} /> 11 3669 2140
+                <div>
+                    <img src={phone} /> 11 3669 2140
                 </div>
             </div>
         </div>

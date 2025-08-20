@@ -10,5 +10,24 @@
 
 .text {
     margin-top: 2rem;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
+}
+
+.contact-info {
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contact-info div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contact-info div img {
+    width: 2rem;
 }
