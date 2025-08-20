@@ -1,7 +1,7 @@
 import './App.css';
-import profilePicture from './assets/profile-picture.png';
-import CourseCard from './components/CourseCard';
-import Courses from './constants/courses';
+import profilePicture from '../assets/profile-picture.png';
+import CourseCard from '../components/CourseCard';
+import Courses from '../constants/courses';
 
 function App() {
     return (
