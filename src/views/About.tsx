@@ -1,4 +1,4 @@
-import "./About.css";
+import "./Styles.css";
 
 export default function About() {
     return (
@@ -15,6 +15,9 @@ export default function About() {
                 <br />
                 Me apasiona mucho enseñar: hace más de tres años que doy clases particulares, principalmente de francés y matemáticas,
                 a estudiantes del secundario.
+                <br />
+                <br />
+                Explicar el colegio al que fui y la especializacion en ciencias.
                 <br />
                 <br />
                 Me gusta mucho la programación y la informática en general!

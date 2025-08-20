@@ -1,4 +1,4 @@
-import "./About.css";
+import "./Styles.css";
 
 export default function Subjects() {
     return (
