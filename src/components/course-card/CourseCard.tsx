@@ -11,7 +11,7 @@ export default function CourseCard({
             <img src={course.iconUrl} alt={`${course.title} icon`} className={styles.courseIcon} />
             <h2 className="course-title">{course.title}</h2>
             <p className="course-description">{course.description}</p>
-            <a href="">Ver detalles</a>
+            <a className={styles.detailsButton} href={course.path}>Ver detalles</a>
         </div>
     );
 }
