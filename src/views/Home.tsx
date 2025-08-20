@@ -1,6 +1,6 @@
 import './Home.css';
 import profilePicture from '../assets/profile-picture.png';
-import CourseCard from '../components/CourseCard';
+import CourseCard from '../components/course-card/CourseCard';
 import Courses from '../constants/courses';
 
 function App() {
