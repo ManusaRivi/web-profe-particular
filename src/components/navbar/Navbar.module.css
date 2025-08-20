@@ -5,4 +5,18 @@
     height: var(--navbar-height);
     z-index: 1000;
     background-color: var(--background-accent);
+    align-items: center;
+    display: flex;
+    flex: 1;
+}
+
+.navbarButton {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+.navbarButton:hover {
+    color: #ffe082;
+    transition: color 0.3s ease;
 }
