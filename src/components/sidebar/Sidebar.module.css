@@ -4,5 +4,17 @@
     width: 10vw;
     display: flex;
     flex-direction: column;
-    background-color: var(--background-accent)
+    background-color: var(--background-accent);
+    gap: 1rem;
+    padding-top: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #ffe082;
+    transition: color 0.3s ease;
 }
