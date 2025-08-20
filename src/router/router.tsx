@@ -5,6 +5,11 @@ import About from "../views/About";
 import Contact from "../views/Contact";
 import Subjects from "../views/Subjects";
 import SubjectsLayout from "../layouts/subjectsLayout";
+import French from "../views/subjects/French";
+import English from "../views/subjects/English";
+import Math from "../views/subjects/Math";
+import Physics from "../views/subjects/Physics";
+import Coding from "../views/subjects/Coding";
 
 const router = createBrowserRouter([
     {
@@ -30,6 +35,26 @@ const router = createBrowserRouter([
                     {
                         path: '/subjects',
                         element: <Subjects />
+                    },
+                    {
+                        path: '/subjects/english',
+                        element: <English />
+                    },
+                    {
+                        path: '/subjects/french',
+                        element: <French />
+                    },
+                    {
+                        path: '/subjects/math',
+                        element: <Math />
+                    },
+                    {
+                        path: '/subjects/physics',
+                        element: <Physics />
+                    },
+                    {
+                        path: '/subjects/coding',
+                        element: <Coding />
                     }
                 ]
             },
