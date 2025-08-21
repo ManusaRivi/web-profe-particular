@@ -15,9 +15,16 @@
     text-decoration: none;
     color: white;
     padding: 0.5rem 1rem;
+    align-items: center;
+    display: flex;
+    gap: 0.6rem;
 }
 
 .navbarButton:hover {
     color: #ffe082;
     transition: color 0.3s ease;
+}
+
+img {
+    width: 1.5rem;   
 }
