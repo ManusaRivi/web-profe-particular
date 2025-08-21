@@ -1,13 +1,15 @@
+
+import { Link } from 'react-router-dom';
 import styles from  './Sidebar.module.css';
 
 export default function Sidebar() {
     return (
         <div className={styles.sidebar}>
-            <a href="/web-profe-particular/subjects/english">Inglés</a>
-            <a href="/web-profe-particular/subjects/french">Francés</a>
-            <a href="/web-profe-particular/subjects/math">Matemáticas</a>
-            <a href="/web-profe-particular/subjects/physics">Física</a>
-            <a href="/web-profe-particular/subjects/coding">Programación</a>
+            <Link to="/subjects/english">Inglés</Link>
+            <Link to="/subjects/french">Francés</Link>
+            <Link to="/subjects/math">Matemáticas</Link>
+            <Link to="/subjects/physics">Física</Link>
+            <Link to="/subjects/coding">Programación</Link>
         </div>
     )
 }
