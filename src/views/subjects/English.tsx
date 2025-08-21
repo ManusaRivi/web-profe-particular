@@ -7,11 +7,15 @@ export default function English() {
             <h1 className="header">
                 Inglés
             </h1>
-            <ul style={{ alignItems: "flex-start", display: 'flex', flexDirection: "column" }}>
+            <ul>
                 {EnglishContent.map((item, index) => (
                     <li key={index} style={{ textAlign: 'left' }}>
                         <h2>{item.title}</h2>
-                        <p>{item.content}</p>
+                        <ul>
+                            {item.content.map((contentItem, contentIndex) => (
+                                <li key={contentIndex}>{contentItem}</li>
+                            ))}
+                        </ul>
                     </li>
                 ))}
             </ul>

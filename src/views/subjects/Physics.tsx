@@ -7,11 +7,15 @@ export default function Physics() {
             <h1 className="header">
                 Física
             </h1>
-            <ul style={{ alignItems: "flex-start", display: 'flex', flexDirection: "column" }}>
+            <ul>
                 {PhysicsContent.map((item, index) => (
                     <li key={index} style={{ textAlign: 'left' }}>
                         <h2>{item.title}</h2>
-                        <p>{item.content}</p>
+                        <ul>
+                            {item.content.map((contentItem, contentIndex) => (
+                                <li key={contentIndex}>{contentItem}</li>
+                            ))}
+                        </ul>
                     </li>
                 ))}
             </ul>

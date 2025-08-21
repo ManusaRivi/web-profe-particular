@@ -1,106 +1,215 @@
-export const EnglishContent = [
+export interface CourseContent {
+    title: string;
+    content: string[];
+}
+
+export const EnglishContent: CourseContent[] = [
     {
         title: "Gramática",
-        content: "Estructura de la oración, tiempos de los verbos, pronombres, conjunciones..."
+        content: [
+            "Estructura de la oración",
+            "Tiempos de los verbos",
+            "Pronombres",
+            "Conjunciones"
+        ]
     },
     {
         title: "Vocabulario",
-        content: "Prefijos y sufijos, sinónimos y antónimos, homófonos, homógrafos, campos semánticos..."
+        content: [
+            "Prefijos y sufijos",
+            "Sinónimos y antónimos",
+            "Homófonos y homógrafos",
+            "Campos semánticos"
+        ]
     },
     {
         title: "Expresión escrita",
-        content: "Voz activa y voz pasiva, diálogo, narración..."
+        content: [
+            "Voz activa y voz pasiva",
+            "Diálogo y narración"
+        ]
     }
 ]
 
 export const FrenchContent = [
     {
         title: "Gramática",
-        content: "Clases gramaticales, funciones de las palabras, organización de la oración..."
+        content: [
+            "Clases gramaticales",
+            "Funciones de las palabras",
+            "Organización de la oración"
+        ]
     },
     {
         title: "Conjugación",
-        content: "Infinitivo, tiempos del indicativo, futuro, pretérito, condicional, imperativo..."
+        content: [
+            "Infinitivo",
+            "Tiempos del indicativo",
+            "Futuro",
+            "Pretérito",
+            "Condicional",
+            "Imperativo"
+        ]
     },
     {
         title: "Ortografía",
-        content: "Reglas ortográficas, acentuación, puntuación..."
+        content: [
+            "Reglas ortográficas",
+            "Acentuación",
+            "Puntuación"
+        ]
     },
     {
         title: "Vocabulario",
-        content: "Prefijos y sufijos, sinónimos y antónimos, homófonos, homógrafos, campos semánticos..."
+        content: [
+            "Prefijos y sufijos",
+            "Sinónimos y antónimos",
+            "Homófonos y homógrafos",
+            "Campos semánticos"
+        ]
     },
     {
         title: "Expresión escrita",
-        content: "Cronología, diálogo, narración..."
+        content: [
+            "Cronología",
+            "Diálogo",
+            "Narración"
+        ]
     }
 ]
 
 export const MathContent = [
     {
         title: "Álgebra",
-        content: "Ecuaciones e inecuaciones, funciones, polinomios, números complejos..."
+        content: [
+            "Ecuaciones e inecuaciones",
+            "Funciones",
+            "Polinomios",
+            "Números complejos"
+        ]
     },
     {
         title: "Geometría",
-        content: "Figuras geométricas, planos, áreas y volúmenes..."
+        content: [
+            "Figuras geométricas",
+            "Planos",
+            "Áreas y volúmenes"
+        ]
     },
     {
         title: "Trigonometría",
-        content: "Funciones trigonométricas, relaciones de triángulos..."
+        content: [
+            "Funciones trigonométricas",
+            "Relaciones de triángulos"
+        ]
     },
     {
         title: "Cálculo",
-        content: "Límites, derivadas, integrales..."
+        content: [
+            "Límites",
+            "Derivadas",
+            "Integrales"
+        ]
     },
     {
         title: "Estadística",
-        content: "Probabilidad, esperanza, varianza..."
+        content: [
+            "Probabilidad",
+            "Esperanza",
+            "Varianza"
+        ]
     },
 ]
 
 export const PhysicsContent = [
     {
         title: "Mecánica",
-        content: "Cinemática, dinámica, leyes de Newton, energía y trabajo..."
+        content: [
+            "Cinemática",
+            "Dinámica",
+            "Leyes de Newton",
+            "Energía y trabajo"
+        ]
     },
     {
         title: "Termodinámica",
-        content: "Leyes de la termodinámica, calor, temperatura..."
+        content: [
+            "Leyes de la termodinámica",
+            "Calor",
+            "Temperatura"
+        ]
     },
     {
         title: "Electromagnetismo",
-        content: "Campos eléctricos y magnéticos, circuitos..."
+        content: [
+            "Campos eléctricos y magnéticos",
+            "Circuitos"
+        ]
     },
     {
         title: "Óptica",
-        content: "Luz, reflexión, refracción, lentes..."
+        content: [
+            "Luz",
+            "Reflexión",
+            "Refracción",
+            "Lentes"
+        ]
     }
 ]
 
 export const CodingContent = [
     {
         title: "Fundamentos",
-        content: "Funciones, ciclos, variables, constantes, tipos de datos..."
+        content: [
+            "Funciones",
+            "Ciclos",
+            "Variables",
+            "Constantes",
+            "Tipos de datos"
+        ]
     },
     {
         title: "Estructuras de control",
-        content: "Condicionales, bucles, excepciones..."
+        content: [
+            "Condicionales",
+            "Bucles",
+            "Excepciones"
+        ]
     },
     {
         title: "Programación orientada a objetos",
-        content: "Clases, objetos, herencia, polimorfismo..."
+        content: [
+            "Clases",
+            "Objetos",
+            "Herencia",
+            "Polimorfismo"
+        ]
     },
     {
         title: "Algoritmos y estructuras de datos",
-        content: "Listas, pilas, colas, árboles, grafos..."
+        content: [
+            "Listas",
+            "Pilas",
+            "Colas",
+            "Árboles",
+            "Grafos"
+        ]
     },
     {
         title: "Desarrollo web",
-        content: "HTML, CSS, JavaScript, frameworks..."
+        content: [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Frameworks"
+        ]
     },
     {
         title: "Ingeniería de software",
-        content: "Control de versiones, frontend y backend, testing..."
+        content: [
+            "Control de versiones",
+            "Frontend y backend",
+            "Testing"
+        ]
     }
 ]
