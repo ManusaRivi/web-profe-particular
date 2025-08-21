@@ -1,3 +1,4 @@
+import { EnglishContent } from "../../constants/course-text";
 import "../Styles.css";
 
 export default function English() {
@@ -6,12 +7,14 @@ export default function English() {
             <h1 className="header">
                 Inglés
             </h1>
-            <p className="text">
-                Aquí encontrarás recursos y materiales para mejorar tu comprensión del inglés.
-                <br />
-                <br />
-                Si necesitas ayuda específica, no dudes en contactarme.
-            </p>
+            <ul style={{ alignItems: "flex-start", display: 'flex', flexDirection: "column" }}>
+                {EnglishContent.map((item, index) => (
+                    <li key={index} style={{ textAlign: 'left' }}>
+                        <h2>{item.title}</h2>
+                        <p>{item.content}</p>
+                    </li>
+                ))}
+            </ul>
         </div>
     )
 }

@@ -1,3 +1,4 @@
+import { CodingContent } from "../../constants/course-text";
 import "../Styles.css";
 
 export default function Coding() {
@@ -6,12 +7,14 @@ export default function Coding() {
             <h1 className="header">
                 Programación
             </h1>
-            <p className="text">
-                Aquí encontrarás recursos y materiales para mejorar tus habilidades como programador!
-                <br />
-                <br />
-                Si necesitas ayuda específica, no dudes en contactarme.
-            </p>
+            <ul style={{ alignItems: "flex-start", display: 'flex', flexDirection: "column" }}>
+                {CodingContent.map((item, index) => (
+                    <li key={index} style={{ textAlign: 'left' }}>
+                        <h2>{item.title}</h2>
+                        <p>{item.content}</p>
+                    </li>
+                ))}
+            </ul>
         </div>
     )
 }
