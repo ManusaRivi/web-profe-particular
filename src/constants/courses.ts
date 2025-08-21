@@ -16,31 +16,31 @@ const Courses: CourseData[] = [
         title: "Inglés",
         description: "Clases de inglés para todos los niveles.",
         iconUrl: englishIcon,
-        path: "/subjects/english"
+        path: "/web-profe-particular/subjects/english"
     },
     {
         title: "Francés",
         description: "Aprendé francés desde cero o mejorá tu nivel.",
         iconUrl: frenchIcon,
-        path: "/subjects/french"
+        path: "/web-profe-particular/subjects/french"
     },
     {
         title: "Matemáticas",
         description: "Clases de matemáticas para primaria, secundaria y CBC.",
         iconUrl: mathIcon,
-        path: "/subjects/math"
+        path: "/web-profe-particular/subjects/math"
     },
     {
         title: "Física",
         description: "Clases de física para estudiantes de secundaria y CBC.",
         iconUrl: physicsIcon,
-        path: "/subjects/physics"
+        path: "/web-profe-particular/subjects/physics"
     },
     {
         title: "Programación",
         description: "Aprendé a programar desde cero o mejorá tus habilidades.",
         iconUrl: codingIcon,
-        path: "/subjects/coding"
+        path: "/web-profe-particular/subjects/coding"
     }
 ]
 
