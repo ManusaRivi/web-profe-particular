@@ -9,9 +9,10 @@ export default function CourseCard({
     return (
         <div className={styles.cardContainer}>
             <img src={course.iconUrl} alt={`${course.title} icon`} className={styles.courseIcon} />
-            <h2 className="course-title">{course.title}</h2>
-            <p className="course-description">{course.description}</p>
-            <a className={styles.detailsButton} href={course.path}>Ver detalles</a>
+            <a className={styles.detailsButton} href={course.path}>
+                <h2>{course.title}</h2>
+            </a>
+            <p>{course.description}</p>
         </div>
     );
 }
