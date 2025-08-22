@@ -6,6 +6,7 @@
 
 .header {
     font-size: 3rem;
+    margin-bottom: 3rem;
 }
 
 .text {
@@ -14,11 +15,10 @@
 }
 
 ul {
-    align-items: flex-start;
     overflow-y: auto;
     overflow-x: hidden;
-    max-height: 80vh;
-    width: 25vw;
+    max-height: 75vh;
+    width: auto;
 }
 
 .contact-info {
