@@ -21,3 +21,16 @@ a:hover {
     color: #ffe082;
     transition: color 0.3s ease;
 }
+
+@media screen and (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: sticky;
+        padding: 1rem;
+        box-shadow: none;
+        flex-direction: row;
+        font-size: 0.8rem;
+        box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.18);
+    }
+}
