@@ -13,14 +13,15 @@ export default function About() {
                 Qué tenés que saber de mí?
                 <br />
                 <br />
-                Me apasiona mucho enseñar: hace más de tres años que doy clases particulares, principalmente de francés y matemáticas,
-                a estudiantes del secundario.
+                Me apasiona mucho enseñar: hace más de tres años que doy clases de apoyo, principalmente de francés y matemáticas,
+                para estudiantes del secundario.
                 <br />
                 <br />
-                Explicar el colegio al que fui y la especializacion en ciencias.
+                Me gradué del Liceo Franco Argentino Jean Mermoz, con una especialización en ciencias. Poseo doble bachillerato (argentino y francés).
+                Ahora, estudio ingeniería en informática en la Universidad de Buenos Aires (UBA).
                 <br />
                 <br />
-                Me gusta mucho la programación y la informática en general!
+                Me gusta la programación y la informática en general!
                 <br />
                 <br />
                 Por ese motivo, decidí crear esta página web para poder ayudar a más estudiantes.
