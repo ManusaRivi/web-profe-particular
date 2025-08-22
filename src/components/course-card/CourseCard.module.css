@@ -19,3 +19,15 @@
     color: #ffe082;
     transition: color 0.3s ease;
 }
+
+@media screen and (max-width: 768px) {
+    .cardContainer {
+        width: 40vw;
+    }
+
+    .courseIcon {
+        width: 10vw;
+        height: 10vw;
+    }
+    
+}
